@@ -5,5 +5,7 @@ const { TC_TEsting } = require('../Pages/TC_TEsting.spec');
 test('Test_Register', async ({ page }) => {
     const login = new TC_TEsting(page);
     await login.login();
+    console.log("Test Case Executed Successfully");
+     console.log("Test Case Executed Successfully");
     
 });
